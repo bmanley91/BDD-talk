@@ -11,13 +11,13 @@ public class CheckoutSteps {
 	Checkout checkout;
 	int bananaPrice;
 
-	@Given("^the price of a \"(.*?)\" is (\\d+)c$")
-	public void thePriceOfAIsC(String itemName, int price) throws Throwable {
+	@Given("^the price of a banana is (\\d+)c$")
+	public void thePriceOfAIsC(int price) throws Throwable {
 		bananaPrice = price;
 	}	
 
-	@When("^I checkout (\\d+) \"(.*?)\"$")
-	public void iCheckout(int itemCount, String itemName) throws Throwable {
+	@When("^I checkout (\\d+) banana$")
+	public void iCheckout(int itemCount) throws Throwable {
 		checkout = new Checkout();
 		checkout.add(itemCount, bananaPrice);
 	}
