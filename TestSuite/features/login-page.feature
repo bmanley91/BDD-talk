@@ -1,6 +1,9 @@
 @login @front-end
 Feature: Login Page
 
+  The Login Page is the gateway that all Users must pass through to use the application.
+  The page sends authentication requests to the Login API.
+
   @positive
   Scenario: A User successfully logs in
 

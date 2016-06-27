@@ -1,6 +1,8 @@
 @login @back-end
 Feature: Login API
 
+  The Login API is used by the Login Page to verify user credentials.
+
   @positive
   Scenario: A User successfully logs in
 

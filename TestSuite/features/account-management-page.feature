@@ -1,6 +1,8 @@
 @front-end @user-management
 Feature: User Management Page
 
+  The User Management page provides a User with the ability to update any of their personal information.
+
   @positive
   Scenario: A User edits their address
 
