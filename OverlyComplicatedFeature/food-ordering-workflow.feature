@@ -1,6 +1,9 @@
 @pizza
 Feature: Pizza Ordering Workflow
 
+  The Pizza Ordering system has a work flow in which the user must input toppings in each category before moving to the
+  next category.
+
   Scenario: A Customer Wants Extra Oregano
 
     Given a Customer is logged in to the Pizza Ordering System

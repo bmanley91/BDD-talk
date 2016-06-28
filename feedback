@@ -1,0 +1,6 @@
+- Feature file technically should be maintained by BA or PM in an ideal world. But in cases where there is no BA or business cannot contribute, QA takes the responsibility by making sure to collaborate with business. In this case business should review the feature files with QA.
+- Describe “ “ quoted text in the feature file
+- Have hand-outs for code versions presented
+x Another benefit of BDD is, no more maintenance of manual RTM’s. Everything can be in source now!
+- Example of a more complicated feature file
+- Talk about annotations marking tests in cucumber
